@@ -13,7 +13,7 @@ Botnet monitoring and detection using Software Defined Networking. Mininet topol
 To initialize the Mininet topology, open a command prompt on your Mininet Virtual Machine and enter
 
 ```
-sudo mn --custom init_topology.py --topo mytopo --mac --switch ovsk --controlle remote
+sudo mn --custom init_topology.py --topo mytopo --mac --switch ovsk --controller remote
 ```
 
 Then, you can start the controller controller_pox.py
